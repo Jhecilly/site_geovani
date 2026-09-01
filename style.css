@@ -100,3 +100,34 @@ button:hover{
 .info-usuario a:hover {
     text-decoration: underline;
 }
+
+body.modo-claro {
+    background-color: #f1f5ff;
+    color: #333;
+}
+
+body.modo-claro .caixa-login {
+    background-color: #f1f5ff;
+    box-shadow: 0 0 10 px #333;
+}
+
+body.modo-claro h2,
+body.modo-claro p,
+body.modo-claro label {
+    color: #333;
+}
+
+body.modo-claro .link-esqueci {
+    color: 0a47a1;
+}
+
+body.fonte-grande {
+    font-size: 18px;
+}
+
+body.fonte-grande p,
+body.fonte-grande label,
+body-fonte-grande .btn-menu,
+body-fonte-grande button {
+    font-size: 18px;
+}
